@@ -1,0 +1,35 @@
+#root {
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  height: 60px;
+  padding: 28px;
+}
+
+h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+section {
+  margin: 40px;
+}
+
+section div {
+  display: flex;
+  overflow: scroll hidden;
+}
+
+section div img {
+  flex-shrink: 0;
+  width: 220px;
+  height: 124px;
+}
