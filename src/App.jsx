@@ -11,9 +11,10 @@ function App() {
       {data.map((elem, index) => {
         return (
           <Section
+            key={index}
             title={elem.category}
-            films={elem.images.map((image) => {
-              return <img src={image} />;
+            films={elem.images.map((image, i) => {
+              return <img src={image} key={i} />;
             })}
           />
         );
